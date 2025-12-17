@@ -16,4 +16,4 @@ def test_case1(beifan):
 
 if __name__ == '__main__':
     # print("hello world")
-    test_case1(beifan())
+    test_case1(beifan)
