@@ -4,7 +4,7 @@ import pytest
 def beifan():
     print("\nsetup")
     yield
-    print("\nteardown")
+    print("\nteardown123")
 
 @pytest.mark.fixture
 def test_case1(beifan):
